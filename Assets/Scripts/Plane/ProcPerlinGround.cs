@@ -64,8 +64,8 @@ public class ProcPerlinGround : ProcBase
 
 				for (int k = 0; k < m_LayerCount; k++)
 				{
-					float iPerlin = (((float)i/* + seedFloat*/) / scale) / mul;
-					float jPerlin = (((float)j/* + seedFloat*/) / scale) / mul;
+					float iPerlin = (((float)i + seedFloat) / scale) / mul;
+					float jPerlin = (((float)j + seedFloat) / scale) / mul;
 					float ijPerlin = Mathf.PerlinNoise(iPerlin, jPerlin);
 					//Debug.Log ("iPerlin = " + iPerlin.ToString());
 					//Debug.Log ("jPerlin = " + jPerlin.ToString());

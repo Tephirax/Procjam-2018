@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -467,7 +467,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1832532473}
-  - component: {fileID: 1832532472}
   - component: {fileID: 1832532471}
   - component: {fileID: 1832532470}
   - component: {fileID: 1832532469}
@@ -566,33 +565,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f897652b7da2b4ab3237ed5c26eb9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Width: 1
-  m_Length: 1
+  m_Width: 2
+  m_Length: 2
   m_Height: 6
   m_SegmentCount: 50
   scale: 14
   m_LayerCount: 2
   seed: I wandered lonely as a cloud. That floats on high o'er vales and hills,. When
     all at once I saw a crowd,. A host, of golden daffodils
---- !u!114 &1832532472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1832532466}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab036d7bd0c61042a86e48ecae2f862, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Width: 1
-  m_Length: 1
-  m_Height: 6
-  m_SegmentCount: 50
-  scale: 14
-  m_LayerCount: 2
-  seed: I wandered lonely as a cloud. That floats on high o'er vales and hills,. When
-    all at once I saw a crowd,. A host, of golden daffodils
+  speed: 0.4
 --- !u!4 &1832532473
 Transform:
   m_ObjectHideFlags: 0
